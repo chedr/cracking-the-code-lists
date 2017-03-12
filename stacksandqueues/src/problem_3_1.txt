@@ -1,0 +1,4 @@
+Describe how you could use a single array to implement three stacks.
+------------------------------------------------------------------------------------------------------------------------
+Simply divide the array into three parts with pointers to the end of each partition, grow upwards until you hit the tail
+of another stack.

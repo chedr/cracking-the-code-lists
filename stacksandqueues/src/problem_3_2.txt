@@ -1,0 +1,5 @@
+How would you design a stack which, in addition to push and pop, also has a function
+min which returns the minimum element? Push, pop and min should all operate in O(1) time.
+------------------------------------------------------------------------------------------------------------------------
+Always keep track of the minimum value in a field (inside Node structure or object) when pushing onto the stack. This
+way the head will always know of its local minimum.
